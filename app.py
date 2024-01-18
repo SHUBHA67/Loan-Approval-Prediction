@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 
-model =  pickle.load(open('ML_Model.pkl', 'rb'))
+model =  pickle.load(open('/ML_Model.pkl', 'rb'))
 
 def main():
     html_temp="""
